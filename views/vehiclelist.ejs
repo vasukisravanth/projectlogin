@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+
+  <div class="box" id="heading">
+    <h1> VEHICLE LIST </h1>
+  </div>
+
+
+
+  
+  <div class="box">
+
+
+
+
+      <form class="item" action="/vehiclelist" method="post">
+        <input type="text" name="vehiclename" placeholder="New Item" autocomplete="off">
+        <button type="submit" name="list" >+</button>
+      </form>
+  </div>
+
+  <%- include('partials/footer') %>
